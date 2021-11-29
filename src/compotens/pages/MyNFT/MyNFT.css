@@ -1,0 +1,100 @@
+.MyNFT_bg {
+  width: 100%;
+  background: url('assets/img/new2copy@2x.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+.MyNFT {
+  width: 62%;
+  margin: auto;
+}
+.MyNFT_fils {
+  color: #FFFFFF;
+  width: 100%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MyNFT_flex {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.MyNFT_flex .MyNFT_flex_one {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.MyNFT_flex .MyNFT_flex_one div {
+  margin-left: 30px;
+  font-size: 21px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.MyNFT_flex .MyNFT_flex_tow {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.MyNFT_flex .MyNFT_flex_tow a {
+  width: 50%;
+  height: 100%;
+}
+.MyNFT_flex .MyNFT_flex_tow a img {
+  width: 100%;
+  height: 100%;
+}
+.text_center {
+  text-align: center;
+  height: 200px;
+  width: 100%;
+  line-height: 220px;
+  color: #FFFFFF;
+  font-size: 21px;
+  font-weight: 400;
+}
+.text_center_list {
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  font-size: 21px;
+  font-weight: 400;
+  color: #6DC9EF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text_center_list div {
+  margin-left: 60px;
+}
+.MyNFT_dark_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MyNFT_dark_button .MyNFT_dark_button_one {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.MyNFT_dark_button .MyNFT_dark_button_one img {
+  width: 30%;
+}
+.MyNFT_dark_button .MyNFT_dark_button_click {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.MyNFT_dark_button .MyNFT_dark_button_click img {
+  width: 40%;
+}

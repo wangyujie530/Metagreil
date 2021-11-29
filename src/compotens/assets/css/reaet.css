@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/*=========================Reset_start==========================*/
+
+/* @font-face {
+    font-family: 'pingFangSC-Medium';
+    src: url('苹方黑体-中黑-简.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pingFangSC-Semibold';
+    src: url('苹方黑体-中粗-简.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PingFangSC-Regular';
+    src: url('苹方黑体-准-简.ttf');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+table,
+th,
+td,
+a,
+img,
+span,
+strong,
+var,
+em,
+input,
+textarea,
+select,
+option {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* html,
+body {
+    font-family: myFont, PingFang SC;
+    font-size: 12px;
+    color: #999999;
+    font-family: "Helvetica Neue",
+    Helvetica,
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Microsoft YaHei",
+    "微软雅黑",
+    Arial,
+    sans-serif;
+} */
+
+html,
+body {
+    font-family: "Helvetica Neue",
+        Helvetica,
+        "PingFang SC",
+        "Hiragino Sans GB",
+        "Microsoft YaHei",
+        "微软雅黑",
+        Arial,
+        sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+/* html,
+body {
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-size: 12px;
+    color: #999999;
+    background-color: #F7F7F7;
+} */
+p {
+    font-size: 14px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+input,
+select,
+textarea {
+    outline: 0;
+}
+input:focus{
+    outline: none;
+}
+button{
+    border:none;
+    outline: none;
+cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+strong,
+var,
+em {
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 12px
+}
+
+
+/*==========================Reset_End===========================*/
